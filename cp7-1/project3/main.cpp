@@ -14,7 +14,7 @@ int main(void)
 	// x와 y의 차 구해 sub에 저장
 	sub = man.ComplexSub(x, y);
 	// x와 y의 두 복소수 차 출력
-	cout << "두 복소수의 차은 ";
+	cout << "두 복소수의 차는 ";
 	sub.show();
 	return 0;   // 프로그램 종료
 }
