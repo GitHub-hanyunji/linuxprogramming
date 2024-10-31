@@ -1,4 +1,4 @@
-#include "head.hpp"  // "head.hpp" 헤더파일 포함
+#include "code.hpp"  // "code.hpp" 헤더파일 포함
 // namespace A 구현
 namespace A {
 	// Complex 클래스 생성자

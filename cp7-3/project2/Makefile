@@ -11,10 +11,10 @@ TARGET=complex
 $(TARGET):$(OBJS)
 	$(CX) -o $(TARGET) $(OBJS)
 # main.c의 목적파일 생성
-main.o:main.cpp head.hpp
+main.o:main.cpp code.hpp
 	$(CX) $(CXFLAGS) -c main.cpp
 # code.c의 목적파일 생성
-code.o:code.cpp head.hpp
+code.o:code.cpp code.hpp
 	$(CX) $(CXFLAGS) -c code.cpp
 # clean이 phony target임을 명시
 .PHONY:clean

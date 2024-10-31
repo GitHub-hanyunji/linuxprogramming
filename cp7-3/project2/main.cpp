@@ -1,4 +1,4 @@
-#include "head.hpp"   //"head.hpp" 헤더파일 포함
+#include "code.hpp"   //"code.hpp" 헤더파일 포함
 using namespace A;   // namespace A 사용
 // main 함수
 int main(void)
