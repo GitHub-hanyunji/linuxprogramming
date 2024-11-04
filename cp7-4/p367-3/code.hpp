@@ -1,7 +1,7 @@
 #ifndef HEAD   // 만약 HEAD가 정의되지 않았다면
 #define HEAD   // HEAD를 정의하여 중복 포함을 방지
 #include <iostream>  // 표준 입출력 라이브러리
-#include<string>
+#include<string>     // string  객체 라이브러리
 using namespace std; // 표준 namespace 사용
 // namespace A 정의
 namespace A {
