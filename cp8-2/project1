@@ -2,6 +2,6 @@
 -> SmartTV 클래스가 상속하는 클래스는 WideTV 클래스이고, WideTv 클래스가 상속하는 클래스는 TV 클래스이므로 TV, WideTV, SmartTV 순으로 호출된다.
 
 [2번 htv 생성시 지정된 인수가 각 생성자에 어떻게 전달되는지도 자세히 설명하시오.]
--> htv를 생성하면 SmartTV의 생성자에 ip="192.0.0.1", size=32가 전달된다. SmartTV 생성자는 ip와 size를 매개변수로 받아서 ip는 SmartTV의 ipADdr에 설정하고 size는 WideTV와 TV 생성자로 전달된다.
-WideTV 생성자는 SmartTV 생성자에서 전달받은 size를 TV 생성자로 전달하여 초기화하고, WideTV 자신의 속성(videoIn)이 있다면 videoIn을 초기화한다.
-최종적으로 TV 생성자가 size를 초기화합니다.
+-> htv를 생성하면 SmartTV의 생성자에 ip="192.0.0.1", size=32가 전달된다. SmartTV 생성자는 ip와 size를 매개변수로 받아서 ip는 SmartTV의
+ipADdr에 설정하고 size는 WideTV와 TV 생성자로 전달된다. WideTV 생성자는 SmartTV 생성자에서 전달받은 size를 TV 생성자로 전달하여 초기화하고, 
+WideTV 자신의 속성(videoIn)이 있다면 videoIn을 초기화한다. 최종적으로 TV 생성자가 size를 초기화합니다.
