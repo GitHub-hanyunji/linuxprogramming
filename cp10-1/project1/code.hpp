@@ -6,7 +6,7 @@ using namespace std; // 표준 namespace 사용
 namespace A {
 	template <class T>   // 템플릿 선언
 	// data 배열의 max 구하는 템플릿 함수
-	T Max(T data[], int n) {
+	T getmax(T data[], int n) {
 		T max = data[0];  // max 값 data배열의 첫번째요소로 저장
 		// 배열의 모든 요소 비교
 		for (int i = 0; i < n; i++) 

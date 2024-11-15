@@ -7,10 +7,10 @@ int main(void)
 	double b[4] = { 3.14, 1.5, -6.0, 0.5 };  // 실수 배열
 	char c[3] = { 'a', 'x','p' };   // 문자 배열
 	// 정수 배열 a의 최대값 출력
-	cout << "정수배열의 최대값은 " << Max(a, 5) << endl;
+	cout << "정수배열의 최대값은 " << getmax(a, 5) << endl;
 	// 실수 배열 b의 최대값 출력
-	cout << "실수배열의 최대값은 " << Max(b, 4) << endl;
+	cout << "실수배열의 최대값은 " << getmax(b, 4) << endl;
 	// 문자 배열 c의 최대값 출력
-	cout << "문자배열의 최대값은 " << Max(c, 3) << endl;
+	cout << "문자배열의 최대값은 " << getmax(c, 3) << endl;
 	return 0; // 프로그램 종료
 }
