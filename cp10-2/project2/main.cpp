@@ -18,7 +18,6 @@ Container<T>::Container(int n)
 {
 	size = n;      // 배열 크기 설정
 	p = new T[n];  // n만큼 동적 메모리 할당
-	if (!p) return;  // 메모리 할당 실패시 반환
 }
 template <class T>		// 템플릿 선언
 // Container<T>클래스의 소멸자
