@@ -3,3 +3,4 @@
 #### 작성자: 2301510 한윤지
 
 ##### <결과>
+![image](https://github.com/user-attachments/assets/39b7803c-84c9-4b61-93a2-f7651343ab2b)
